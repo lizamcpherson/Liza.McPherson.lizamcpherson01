@@ -1,0 +1,28 @@
+1. x = 15
+
+2. y = 20
+
+3. yes
+
+4. yes
+
+1. integer
+
+2. string
+
+3. yes because you can't add an integer to a string. you could print the value of x, which is 15, and then hi by changing it to "#{x}" + y OR "#{x} #{y}"
+
+4. string
+
+5. nothing
+
+6. hi!joe\n
+
+7. hi!joe
+	
+	hi!joe
+	hi!joe
+	hi!joe
+		.strip
+
+

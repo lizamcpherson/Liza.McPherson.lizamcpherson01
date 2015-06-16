@@ -1,0 +1,43 @@
+E1
+
+1. Git init creates an empty Git repository, or reinitializes an existing one
+
+2. Git add adds the content of a file to the index. The index represents the contents of the current working tree and is what will be committed upon executing "git commit." If you want to add modified files to the index before committing, use "git add." You can git add as many times as you want before committing. Executing git commit will record the contents of the index in the repository and the user can add a message that describes what changes they made since the last commit.
+
+3. The staging area is an in-between area akin to a "loading dock" where you place files before they're ready to be committed as a kind of preparation-zone. Once they're committed they're actually in the repository.
+
+4. Git commit -a will add all modified files and commit them
+
+5. You can use git reset to unstage a staged file, and you can use "git checkout commit_you_want_to_restore_to file_you_want_restored" to reset to a file's earlier commit. commit_you_want_to_restore_to can either be a commit hash or a tag.
+
+6. Commit messages are important to remind you what changes you made since the last commit, both to track your process and to help you identify to which commit you want to return if you realize you've made a mistake.
+
+7. Same as #5 but without the last argument (you can use "git checkout commit_you_want_to_restore_to" to reset to an earlier commit. commit_you_want_to_restore_to can either be a commit hash or a tag)
+
+8. To quit vim, first hit the ESC key to bring it into command mode. Then type :q to quit, or :q! to quit without saving. 
+
+
+E2
+
+1. Git is a tool to manage your code's history and GitHub is a hosting service for Git repositories/projects that use Git. Git saves repositories locally, which you can then push to GitHub. Git could exist without GitHub but not vice versa. You could run Git on Dropbox files (etc) but as GitHub was made specifically for Git, it's a more streamlined service.
+
+2. GitHub allows software developers to collaborate with each other, and to showcase their work so that potential employers can see the actual work they've done - not just the list of skills they claim to possess on their resume.
+
+3. You can use git push to push a local branch to a remote repository
+
+4. Git pull is a single command that represents the combined actions of git fetch and git merge. It is often used when developers are collaborating because it allows them to merge changes into the local repository. Git fetch stores commits from a remote repository in your local repository but allows you to review changes before integrating the changes into your own project.
+
+
+E4
+
+- The browser looks up the IP address for the visited domain
+- The browser (client) sends an HTTP request (which means it's asking for data) to the IP address which is processed by the web server. The request consists of a GET request, which names the URL to fetch, a User-Agent header where the browser identifies itself, Accept and Accept-Encoding headers, which say what types of responses the browser will accept, a Connection header that asks the server to keep the TCP connection open for further requests, and cookies, which are key-value pairs that store the name of the logged-in user, a number assigned to the user by the server, and some of the user's settings.
+- The server responds with a permanent redirect
+- The server handles the GET request, processes it, and sends back an HTML response so the browser can render it
+
+E5
+
+- It says there isn't a page there (404 error)
+- The 404 error means that (and yes, this is according to Wikipedia) that the client could communicate with the server but the server couldn't locate what the client requested (like if the link is broken or dead)
+- NAH RUBY FOSHO STILL ROX
+

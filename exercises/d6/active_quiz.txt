@@ -1,0 +1,8 @@
+E1
+
+1. It's a file that stores data on your computer
+2. A table is a collection of related data in the database, structured into rows and columns. There is always an "id" column that increments automatically.
+3. (Drew it)
+4. It helps you think about how to structure the database
+5. It's a module that has a lot of methods and makes constructing models easier in Rails
+6. A resource includes a model, its controller, and its views, ActiveRecord is a module, and a database table contains data in the form of binary numbers.
